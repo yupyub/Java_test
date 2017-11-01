@@ -17,8 +17,8 @@ public class grPrintFont extends Frame{
 	public static void main(String[] args){
 		Frame frm = new grPrintFont("String");
 		frm.setSize(500,300);
-		WindowDestroyer listner = new WindowDestroyer();
-		frm.addWindowListener(listner);
+		WindowDestroyer listener = new WindowDestroyer();
+		frm.addWindowListener(listener);
 		frm.setVisible(true);
 	}
 }
