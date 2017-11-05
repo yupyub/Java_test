@@ -1,4 +1,10 @@
 import java.awt.*;
+import java.awt.event.*;
+class WindowDestroyer extends WindowAdapter{
+	public void windowClosing(WindowEvent e){
+		System.exit(0);
+	}
+}
 public class pa2_20161641 extends Frame{
 	Image haema = Toolkit.getDefaultToolkit().getImage("./haema.GIF");
 	public pa2_20161641(String str){
