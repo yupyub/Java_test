@@ -5,7 +5,7 @@ public class ExGridLayout extends Frame {
 	}
 	public static void main(String args[]) {
 		ExGridLayout f = new ExGridLayout("Simple GridLayout Example");
-		f.setLayout(new GridLayout(3,2));
+		f.setLayout(new GridLayout(3,2,200,300));
 		Button b1 = new Button("B1");
 		Button b2 = new Button("B2");
 		Button b3 = new Button("B3");
