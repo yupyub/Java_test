@@ -1,6 +1,6 @@
 import java.io.*;
 import java.net.*;
-class ClientSide
+class ClientSide    //java ClientSide (IPnum) (Portnum)
 { public static void main(String args[])
   { try
     { String server = args[0];
